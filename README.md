@@ -1,4 +1,4 @@
-# Machine_Learning
+# Machine_Learning_Projects
 In this repo I add some of my ML projects.
 
 1-FastText News Category Classification:
