@@ -28,5 +28,7 @@ In this repo I add some of my ML projects.
      Note: This envolves NLP , webscraping , video genrating ...etc
 
 ##########################################
+
  4- UrlClassification: 
-  This project uses the traditional Ml random forest and other models to classify links to News link or Other link before going and scrap the link content which saves a lot of time and resources. It involoves Data Prep , Feature Extraction. model training, model  evaluation. model  saveing .model loading ....  etc.
+ 
+   This project uses the traditional Ml random forest and other models to classify links to News link or Other link before going and scrap the link content which saves a lot of time and resources. It involoves Data Prep , Feature Extraction. model training, model  evaluation. model  saveing .model loading ....  etc.
