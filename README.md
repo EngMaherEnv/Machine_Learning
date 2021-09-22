@@ -31,4 +31,4 @@ In this repo I add some of my ML projects.
 
  4- Url Classification project:  
  
-   This project uses the traditional Ml random forest and other models to classify links to News link or Other link before going and scrap the link content which saves a lot of time and resources. It involoves scraping News websites for Links , Data Prep , Feature Extraction. model training, model  evaluation. model  saveing and model loading ....  etc.
+   This project uses the traditional Ml supervised learning Random Forest and other models to classify links to News link or Other link before going and scrap the link content which saves a lot of time and resources. It involoves scraping News websites for Links , Data Prep , Feature Extraction. model training, model  evaluation. model  saveing and model loading ....  etc.
