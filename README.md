@@ -2,11 +2,13 @@
 In this repo I add some of my ML projects.
 
 1-FastText News Category Classification project: 
+
   I used Facebook's popular FastText #NLP model to categorize Turkish news into many categories such as sports, economics, and politics.
   
  ##########################################
  
  2- Text To Video project: 
+ 
    This prototype project aims to create a video from just text,The steps are:
   - Divide an article into several sentences.
   - Text-to-speech: The program reads each sentence and saves an audio file for it.
