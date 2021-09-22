@@ -16,6 +16,7 @@ In this repo I add some of my ML projects.
    Note: This envolves NLP , webscraping , video genrating ...etc
    
 ##########################################
+
 3- Bert Sentiment Analysis:
   Make use of the BERT most powerful Google Deep Learinig NLP model (built above transformers ) to do Turkish News Sentiment Analysis.
   This BERT model here is used for transfer Learning and It has been finely tuned to our Data.
