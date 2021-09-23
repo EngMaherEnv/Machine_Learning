@@ -1,5 +1,5 @@
 # NLP_&_Machine_Learning_Projects
-In this repo I add some of my ML projects.
+In this repo I add some of my ML AND NLP projects.
 
 
 
