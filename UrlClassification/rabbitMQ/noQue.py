@@ -172,9 +172,9 @@ def analysis(comingQuary):
    
 def consumeFromRabbit():
     
-    credentials = pika.PlainCredentials('crawler', '123456sS')
+    credentials = pika.PlainCredentials('////', '////')
     
-    connection = pika.BlockingConnection( pika.ConnectionParameters('192.168.2.217',5672,'/',credentials))
+    connection = pika.BlockingConnection( pika.ConnectionParameters('1/////',////,'/',credentials))
     channel = connection.channel()
     
     def callback(ch, method, properties, body):
@@ -208,9 +208,9 @@ if __name__ == '__main__':
     filename = 'urlClassification_model.sav'
     UrlClassModel = pickle.load(open(filename, 'rb'))
     
-    credentials = pika.PlainCredentials('crawler', '123456sS')
-    Sendconnectionsuccess = pika.BlockingConnection(pika.ConnectionParameters('192.168.2.217',5672,'/',credentials))
-    Sendconnectionfaild = pika.BlockingConnection(pika.ConnectionParameters('192.168.2.217',5672,'/',credentials))
+    credentials = pika.PlainCredentials('////', '//////')
+    Sendconnectionsuccess = pika.BlockingConnection(pika.ConnectionParameters('19///////',/,'/',credentials))
+    Sendconnectionfaild = pika.BlockingConnection(pika.ConnectionParameters('19//////',/,'/',credentials))
 
     sendChannelsuccess = Sendconnectionsuccess.channel()
     sendChannelfaild = Sendconnectionfaild.channel()
