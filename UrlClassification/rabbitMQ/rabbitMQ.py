@@ -246,9 +246,9 @@ if __name__ == '__main__':
     filename = 'urlClassification_model.sav'
     UrlClassModel = pickle.load(open(filename, 'rb'))
     
-    credentials = pika.PlainCredentials('crawler', '123456sS')
-    Sendconnectionsuccess = pika.BlockingConnection(pika.ConnectionParameters('192.168.2.217',5672,'/',credentials))
-    Sendconnectionfaild = pika.BlockingConnection(pika.ConnectionParameters('192.168.2.217',5672,'/',credentials))
+    credentials = pika.PlainCredentials('/////', '/////')
+    Sendconnectionsuccess = pika.BlockingConnection(pika.ConnectionParameters('//////',////,'/',credentials))
+    Sendconnectionfaild = pika.BlockingConnection(pika.ConnectionParameters('///////',////,'/',credentials))
 
     sendChannelsuccess = Sendconnectionsuccess.channel()
     sendChannelfaild = Sendconnectionfaild.channel()
